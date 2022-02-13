@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    tty: true
+    volumes:
+      - .:/var/www
+    working_dir: /var/www/app
+    ports:
+      - 9999:9999
+      - 9876:9876
+    environment:
+      - CHROME_BIN=/usr/bin/google-chrome
+  media:
+    image: jlesage/mediainfo
+    tty: true
+    volumes:
+      - ./data:/storage
+    ports:
+      - 5800:5800
+      - 5900:5900
