@@ -11,6 +11,16 @@ https://ren0503.github.io/sdi/chapter1/
 https://ebin.pub/system-design-interview-an-insiders-guide-3267743538.html
 
 
+
+http://preview.themeforest.net/item/thecx-creative-agency-wordpress-theme/full_screen_preview/30472937?_ga=2.208593234.1326111099.1644824332-1573242929.1644824332
+https://demo.epic-webdesign.com/tf-salespage/v1-creative-agency/
+https://demosoledad.pencidesign.net/soledad-fashion-stylist-multipurpose/
+https://soledaddemo.pencidesign.net/soledad-general-shop/
+https://soledaddemo.pencidesign.net/soledad-women-fashion-shop/
+https://soledaddemo.pencidesign.net/soledad-glasses-store/
+
+http://kdsport.gcosoftware.vn/
+
 ```js
 var static_id_cdn = 3;
 var html5player = new HTML5Player('html5video', '26121733');
@@ -48,4 +58,46 @@ if (!html5player) {
 }
 
 html5player.checkVideoAds();
+```
+
+```sh
+[FB - Video: 12.3MB. Duration: 60s]
+31.5kB    7.85ms
+  - Request sent:     0.25ms
+  - TTFB:             4.48ms
+  - Content Download: 1.64ms
+1.5kB     4ms
+  - Request sent:     0.23ms
+  - TTFB:             3.25ms
+  - Content Download: 0.70ms
+19.9kB    6ms
+  - Request sent:     0.20ms
+  - TTFB:             2.99ms
+  - Content Download: 2.58ms
+19.9kB    7ms
+  - Request sent:     0.17ms
+  - TTFB:             5.01ms
+  - Content Download: 1.47ms
+
+[DS - Video: 12.3MB. Duration: 60s]
+1.1KB-Main    195ms
+  - Request sent:     0.14ms
+  - TTFB:             192.31ms
+  - Content Download: 1.82ms
+600B-Video          512ms    
+  - Request sent:     0.12ms
+  - TTFB:             518.43ms
+  - Content Download: 1.75ms
+585B-Audio         586ms
+  - Request sent:     0.13ms
+  - TTFB:             584.5ms
+  - Content Download: 0.54ms
+1.4kb-Video          25ms    
+  - Request sent:     0.11ms
+  - TTFB:             22.03ms
+  - Content Download: 1.28ms
+1.3kb-Audio         26ms
+  - Request sent:     73us
+  - TTFB:             24.45ms
+  - Content Download: 0.82ms
 ```
